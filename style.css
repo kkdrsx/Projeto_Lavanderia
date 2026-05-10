@@ -1,0 +1,303 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4a6cf7, #6f8cff);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* CARD */
+
+.container {
+    background: white;
+
+    width: 100%;
+    max-width: 400px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+
+/* TITULOS */
+
+h1,
+h2 {
+    color: #2f4cd8;
+    margin-bottom: 20px;
+}
+
+
+/* FORM */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* INPUTS */
+
+input,
+select {
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+
+/* BOTÕES */
+
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    background: #4a6cf7;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2f4cd8;
+}
+
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+}
+
+
+/* TEXTO */
+
+p {
+    margin-top: 15px;
+    color: #444;
+}
+
+
+/* SUCESSO */
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* ==========================
+   PAINEL
+========================== */
+
+.painel-body {
+
+    background: linear-gradient(135deg, #4a6cf7, #6f8cff);
+
+    min-height: 100vh;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: block;
+}
+
+
+/* HEADER */
+
+.painel-header {
+
+    background: #2f4cd8;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+/* CONTAINER */
+
+.painel-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px;
+}
+
+
+/* COLUNAS */
+
+.painel-coluna {
+
+    background: white;
+
+    width: 100%;
+
+    max-width: 900px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* SELECT DO PAINEL */
+
+.painel-coluna select {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    overflow: hidden;
+}
+
+/* TITULOS */
+
+.painel-coluna h2 {
+
+    color: #2f4cd8;
+
+    margin-bottom: 15px;
+}
+
+
+/* LISTA */
+
+.lista-precos {
+
+    padding-left: 20px;
+
+    margin-bottom: 15px;
+}
+
+.lista-precos li{
+    margin: 20px;
+    font-weight: bold;
+}
+
+
+/* PEDIDOS */
+
+.pedido {
+
+    background: #f1f5ff;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    margin: 15px 0;
+}
+
+
+/* STATUS */
+
+.status {
+
+    font-weight: bold;
+
+    margin: 10px 0;
+}
+
+
+/* TOTAL */
+
+.total-geral {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    color: green;
+}
+
+
+/* BOTÃO SAIR */
+
+.btn-sair {
+
+    background: #ef4444;
+}
+
+.btn-sair:hover {
+
+    background: #dc2626;
+}
+
+
+/* BOTÃO EXCLUIR */
+
+.btn-excluir {
+
+    background: #ef4444;
+}
+
+.btn-excluir:hover {
+
+    background: #dc2626;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+
+    .painel-container {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+}
