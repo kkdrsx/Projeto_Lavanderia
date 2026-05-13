@@ -151,13 +151,13 @@ foreach ($_SESSION['pedidos'] as $pedido) {
 
             <ul class="lista-precos">
 
-                <li>Camisa — R$10/kg</li>
+                <li>Camisa — R$10,00/kg</li>
 
-                <li>Terno — R$15/kg</li>
+                <li>Terno — R$15,00/kg</li>
 
-                <li>Cobertor — R$12/kg</li>
+                <li>Cobertor — R$12,00/kg</li>
 
-                <li>Calça Jeans — R$8/kg</li>
+                <li>Calça Jeans — R$8,00/kg</li>
 
             </ul>
 
@@ -182,19 +182,19 @@ foreach ($_SESSION['pedidos'] as $pedido) {
 
                 
                     <option value="Camisa|10">
-                        Camisa - R$10/kg
+                        Camisa - R$10,00/kg
                     </option>
 
                     <option value="Terno|15">
-                        Terno - R$15/kg
+                        Terno - R$15,00/kg
                     </option>
 
                     <option value="Cobertor|12">
-                        Cobertor - R$12/kg
+                        Cobertor - R$12,00/kg
                     </option>
 
                     <option value="Calça Jeans|8">
-                        Calça Jeans - R$8/kg
+                        Calça Jeans - R$8,00/kg
                     </option>
 
                     </select>
